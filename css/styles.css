@@ -30,6 +30,10 @@ body{
     font-weight: 400;
 }
 
+h1,h2,h3{
+    font-family: "Fira Sans", sans-serif !important;
+}
+
 
 
 .container {
@@ -407,7 +411,7 @@ background: linear-gradient(180deg, rgba(23,126,147,1) 0%, rgba(25,141,165,1) 10
 
 .section-cta
 {
-    padding: 6.4rem 0 0;
+    padding: 4rem 0 0;
     background: rgb(23,126,147);
 background: linear-gradient(-180deg, rgba(23,126,147,1) 0%, rgba(25,141,165,1) 100%);
 }
@@ -415,7 +419,17 @@ background: linear-gradient(-180deg, rgba(23,126,147,1) 0%, rgba(25,141,165,1) 1
 .content-box{
     margin: 0 auto;
     text-align: center;
+    color: #fff;
    
+}
+
+.section-cta .section-text-box{
+    color: #fff;
+    font-weight: 400;
+}
+
+.section-cta .heading-primary{
+    font-size: 3rem;
 }
 
 
@@ -461,7 +475,7 @@ background: linear-gradient(-180deg, rgba(23,126,147,1) 0%, rgba(25,141,165,1) 1
 {
     width: 3rem;
     height: 3rem;
-    color:var(--accent);
+    color:var(--blue);
     margin-bottom: 2.8rem;
 }
 
@@ -479,7 +493,7 @@ background: linear-gradient(-180deg, rgba(23,126,147,1) 0%, rgba(25,141,165,1) 1
 .copyright
 {
     font-size: var(--fontsize1);
-    color:var(--fontcolor);
+    color:var(--blue);
     text-align: center;
 }
 
