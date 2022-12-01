@@ -24,6 +24,11 @@ html{
     scroll-behavior: smooth;
 }
 
+.bg{
+    background: rgb(234,244,245);
+    background: linear-gradient(180deg, rgba(234,244,245,1) 0%, rgba(255,255,255,1) 100%);
+}
+
 body{
     font-family: var(--ff);
     line-height: 1;
@@ -69,7 +74,7 @@ h1,h2,h3{
 }
 
 .nav-links:visited, .nav-links:link{
-    font-size: var(--fontsize);
+    font-size: 1rem;
     color: var(--fontcolor);
     text-decoration: none;
 }
@@ -280,7 +285,7 @@ border-radius: 5px;
 
 .heading-secondary
 {
-   font-size: 3rem;
+   font-size: 2rem;
    color: var(--fontcolor);
     margin-bottom: 1rem;
     line-height: 48px;
