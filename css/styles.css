@@ -46,6 +46,16 @@ h1,h2,h3{
     margin: 0 auto;
 }
 
+.fa-instagram{
+    font-size: 10rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.instagram:visited{
+    color: #fff;
+}
+
 .header{
    
     position: relative;
